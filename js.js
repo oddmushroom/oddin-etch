@@ -20,7 +20,7 @@ if(gridDim <= 100){
         }
     }
 } else {resetear();
-crearGrid(8);}
+crearGrid(16);}
 }
 
 DimUsuario.addEventListener('click', () => {
