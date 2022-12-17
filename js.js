@@ -13,11 +13,14 @@ function crearDiv(dim) {
 }
 
 function crearGrid(gridDim) {
+if(gridDim <= 100){
     for(let i=0; i < gridDim; i++){
         for(let j=0; j < gridDim; j++){
             grid.appendChild(crearDiv(grid.clientWidth/gridDim));
         }
     }
+} else {resetear();
+crearGrid(8);}
 }
 
 DimUsuario.addEventListener('click', () => {
