@@ -2,6 +2,8 @@ html {
     font-size: 62.5%;
 }
 
+
+
 .cuadrados {
     /*border: solid .1rem black; BORDER GAVE ME SPACE PROBLEMS INSIDE THE GRID CONTAINER*/ 
     background-color:  rgb(255, 255, 200);
@@ -20,4 +22,19 @@ html {
 
 .cuadrados.cursor { 
     background-color: grey;
+}
+
+button {
+    width: 15rem;
+    height: 5rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10rem;
 }
